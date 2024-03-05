@@ -1,0 +1,14 @@
+﻿<Window x:Class="Cog3DDisplayV2WithGraphics.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:cognex="clr-namespace:Cognex.VisionPro3D;assembly=Cognex.VisionPro3D.Display.Controls"
+        Title="3DDisplayV2 with Graphics demo" Height="350" Width="525">
+    <Grid>
+    <Grid.RowDefinitions>
+      <RowDefinition Height="*" />
+      <RowDefinition Height="23" />
+    </Grid.RowDefinitions>
+    <cognex:Cog3DDisplayV2 x:Name="display3D" Grid.Row="0" />
+    <ScrollBar Grid.Row="1" Height="23" Maximum="0" Minimum="0" Value="0" x:Name="imageScroll" Orientation="Horizontal" SmallChange="1" ValueChanged="imageScroll_ValueChanged"/>
+  </Grid>
+</Window>

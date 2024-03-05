@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<VerificationDatabase>
+  <Version>1.0</Version>
+  <Annotations>
+    <Category name="Defect" color="Red" />
+  </Annotations>
+  <Statistics>
+    <TotalCount value="0" />
+    <MatchesCount value="0" />
+    <MismatchesCount value="0" />
+    <TrueAcceptCount value="0" />
+    <TrueRejectCount value="0" />
+    <FalseAcceptCount value="0" />
+    <FalseRejectCount value="0" />
+    <UnknownCount value="0" />
+    <UndefinedCount value="0" />
+    <StartTime value="1/1/0001 12:00:00 AM" />
+    <StopTime value="1/1/0001 12:00:00 AM" />
+    <TotalTime value="-10675199.02:48:05.4775808" />
+  </Statistics>
+</VerificationDatabase>
